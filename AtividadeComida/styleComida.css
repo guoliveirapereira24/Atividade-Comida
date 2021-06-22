@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("ImagemRestaurante-4.png");
+    background-size: cover;
+    background-position: right top;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+header{
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+    align-items: center;
+    color: transparent;
+}
+.logo img{
+    width: 80px;
+}
+.links ul{
+    gap: 30px;
+    display: flex;
+    list-style-type: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+.links a:hover{
+    color:red;
+}
+main{
+    padding: 20vh 10vw;
+    flex-grow: 0;
+}
+main h2{
+    font-size: 60px; 
+    padding: 0vh 30vw;
+    white-space: nowrap;
+}
+main h1 {
+    font-size: 60px;
+    padding: 0vh 28vw;
+    white-space: nowrap;
+
+}
+main p{
+    font-size: 22px;
+    font-weight: 200;
+    max-width: 800px;
+    padding: 0vh 30vw;
+    white-space: nowrap;
+    height: 20px;
+}
+main div {
+    padding: 50vh 0vw;
+    height: 50;
+}
+main div{
+    font-size: 22px;
+    font-weight: 200;
+    max-width: 800px;
+    padding: 0vh 5vw;
+}
+main a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    text-decoration: none;
+    color: white;
+    font: 20px;
+    margin-top: 30px;
+    border-radius: 2px;
+    transition: all .5s;
+
+}
+main a:hover{
+    border: solid 1px goldenrod;
+    background-color: black;
+}
+footer{
+
+   /* background-color: turquoise;*/
+    height: 40px;
+}
